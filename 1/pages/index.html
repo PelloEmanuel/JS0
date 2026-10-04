@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>push() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>push()</h1>
+      <p>Agrega uno o más elementos al final de un array</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Crea un array vacío y agrega tres frutas usando push().</p>
+        <div class="controles">
+          <input type="text" id="fruta1" placeholder="Escribí una fruta" value="">
+          <button id="agregar1">Agregar con push()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Agrega los nombres de tus 3 amigos a un array existente llamado amigos.</p>
+        <div class="controles">
+          <input type="text" id="amigo2" placeholder="Nombre de un amigo" value="">
+          <button id="agregar2">Agregar con push()</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Dado un array de números, agrega un nuevo número solo si es mayor que el último.</p>
+        <div class="controles">
+          <input type="number" id="numero3" placeholder="Número" value="">
+          <button id="agregar3">Agregar si es mayor</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

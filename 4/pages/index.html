@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>shift() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>shift()</h1>
+      <p>Elimina el primer elemento de un array y lo devuelve</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Quita el primer número de un array de enteros.</p>
+        <div class="controles">
+          <button id="quitar1">Quitar con shift()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Elimina el primer mensaje de un array de mensajes de chat.</p>
+        <div class="controles">
+          <button id="quitar2">Eliminar primer mensaje</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Usa shift() para simular una cola de atención al cliente.</p>
+        <div class="controles">
+          <input type="text" id="cliente3" placeholder="Nombre del cliente" value="">
+          <button id="llegar3">Llega un cliente</button>
+          <button id="atender3" class="secundario">Atender siguiente</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

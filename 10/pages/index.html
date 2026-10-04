@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>map() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>map()</h1>
+      <p>Crea un array nuevo transformando cada elemento</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Crea un nuevo array con cada número multiplicado por 3.</p>
+        <div class="controles">
+          <input type="number" id="numero1" placeholder="Agregar un número" value="">
+          <button id="agregar1" class="secundario">Agregar</button>
+          <button id="mapear1">Multiplicar con map()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Convierte un array de nombres en mayúsculas.</p>
+        <div class="controles">
+          <input type="text" id="nombre2" placeholder="Agregar un nombre" value="">
+          <button id="agregar2" class="secundario">Agregar</button>
+          <button id="mapear2">Pasar a mayúsculas</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">A un array de precios, agrégale el 21% de IVA y crea un nuevo array.</p>
+        <div class="controles">
+          <input type="number" id="precio3" placeholder="Agregar un precio" value="">
+          <button id="agregar3" class="secundario">Agregar</button>
+          <button id="mapear3">Aplicar IVA 21%</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

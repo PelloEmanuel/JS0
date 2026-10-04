@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>forEach() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>forEach()</h1>
+      <p>Ejecuta una función por cada elemento del array</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Muestra todos los nombres de un array con un saludo.</p>
+        <div class="controles">
+          <input type="text" id="nombre1" placeholder="Agregar un nombre" value="">
+          <button id="agregar1" class="secundario">Agregar</button>
+          <button id="mostrar1">Saludar con forEach()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="etiqueta">Salida</p>
+        <ul class="salida" id="sal1"></ul>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Imprime el doble de cada número de un array con forEach().</p>
+        <div class="controles">
+          <input type="number" id="numero2" placeholder="Agregar un número" value="">
+          <button id="agregar2" class="secundario">Agregar</button>
+          <button id="mostrar2">Mostrar el doble</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="etiqueta">Salida</p>
+        <ul class="salida" id="sal2"></ul>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Dado un array de objetos {nombre, edad}, muestra cada nombre con su edad.</p>
+        <div class="controles">
+          <input type="text" id="nombre3" placeholder="Nombre" value="">
+          <input type="number" id="edad3" placeholder="Edad" value="">
+          <button id="agregar3" class="secundario">Agregar</button>
+          <button id="mostrar3">Mostrar con forEach()</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="etiqueta">Salida</p>
+        <ul class="salida" id="sal3"></ul>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>slice() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>slice()</h1>
+      <p>Copia una parte de un array sin modificar el original</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Copia los primeros 3 elementos de un array de números.</p>
+        <div class="controles">
+          <button id="copiar1">Copiar con slice(0, 3)</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Crea una copia parcial de un array de películas desde la posición 2 hasta la 4.</p>
+        <div class="controles">
+          <input type="number" id="desde2" placeholder="Desde" value="2">
+          <input type="number" id="hasta2" placeholder="Hasta" value="4">
+          <button id="copiar2">Copiar con slice()</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Crea un array nuevo con los últimos 3 elementos sin modificarlos.</p>
+        <div class="controles">
+          <button id="copiar3">Copiar con slice(-3)</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

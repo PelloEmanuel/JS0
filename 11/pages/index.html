@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>filter() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>filter()</h1>
+      <p>Crea un array nuevo con los elementos que cumplen una condición</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Filtra los números mayores a 10 de un array.</p>
+        <div class="controles">
+          <input type="number" id="numero1" placeholder="Agregar un número" value="">
+          <button id="agregar1" class="secundario">Agregar</button>
+          <button id="filtrar1">Filtrar mayores a 10</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Dado un array de palabras, filtra las que tengan más de 5 letras.</p>
+        <div class="controles">
+          <input type="text" id="palabra2" placeholder="Agregar una palabra" value="">
+          <button id="agregar2" class="secundario">Agregar</button>
+          <button id="filtrar2">Filtrar más de 5 letras</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Filtra los usuarios activos de un array de objetos {nombre, activo}.</p>
+        <div class="controles">
+          <input type="text" id="nombre3" placeholder="Nombre" value="">
+          <select id="estado3"><option>Activo</option><option>Inactivo</option></select>
+          <button id="agregar3" class="secundario">Agregar</button>
+          <button id="filtrar3">Filtrar activos</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

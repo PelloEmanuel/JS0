@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>reduce() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>reduce()</h1>
+      <p>Reduce un array a un único valor (suma, producto, total...)</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Suma todos los elementos de un array.</p>
+        <div class="controles">
+          <input type="number" id="numero1" placeholder="Agregar un número" value="">
+          <button id="agregar1" class="secundario">Agregar</button>
+          <button id="calcular1">Sumar con reduce()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Multiplica todos los elementos de un array de enteros.</p>
+        <div class="controles">
+          <input type="number" id="numero2" placeholder="Agregar un entero" value="">
+          <button id="agregar2" class="secundario">Agregar</button>
+          <button id="calcular2">Multiplicar con reduce()</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Dado un array de objetos {precio}, obtiene el total de precios.</p>
+        <div class="controles">
+          <input type="number" id="precio3" placeholder="Agregar un precio" value="">
+          <button id="agregar3" class="secundario">Agregar</button>
+          <button id="calcular3">Calcular total</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

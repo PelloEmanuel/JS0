@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>splice() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>splice()</h1>
+      <p>Elimina, inserta o reemplaza elementos en cualquier posición</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Elimina dos elementos desde la posición 1 de un array de letras.</p>
+        <div class="controles">
+          <input type="number" id="posicion1" placeholder="Posición" value="1">
+          <input type="number" id="cantidad1" placeholder="Cantidad" value="2">
+          <button id="eliminar1">Eliminar con splice()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Inserta un nuevo nombre en la segunda posición sin eliminar nada.</p>
+        <div class="controles">
+          <input type="text" id="nombre2" placeholder="Nuevo nombre" value="">
+          <button id="insertar2">Insertar en la posición 1</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Reemplaza dos elementos por otros nuevos desde una posición determinada.</p>
+        <div class="controles">
+          <input type="number" id="posicion3" placeholder="Posición" value="1">
+          <input type="text" id="nuevoa3" placeholder="Nuevo 1" value="">
+          <input type="text" id="nuevob3" placeholder="Nuevo 2" value="">
+          <button id="reemplazar3">Reemplazar 2 elementos</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

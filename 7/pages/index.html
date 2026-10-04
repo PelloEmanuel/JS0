@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>indexOf() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>indexOf()</h1>
+      <p>Devuelve la posición de un elemento, o -1 si no está</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Encuentra la posición de la palabra "perro" en un array.</p>
+        <div class="controles">
+          <input type="text" id="palabra1" placeholder="Palabra" value="perro">
+          <button id="buscar1">Buscar con indexOf()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Verifica si el número 50 está en un array y en qué posición.</p>
+        <div class="controles">
+          <input type="number" id="numero2" placeholder="Número" value="50">
+          <button id="buscar2">Buscar con indexOf()</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Dado un array de ciudades, muestra el índice de "Madrid" o un mensaje si no está.</p>
+        <div class="controles">
+          <input type="text" id="ciudad3" placeholder="Ciudad" value="Madrid">
+          <button id="buscar3">Buscar con indexOf()</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

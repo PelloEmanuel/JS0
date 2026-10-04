@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>reverse() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>reverse()</h1>
+      <p>Invierte el orden de los elementos de un array</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Invierte un array de letras.</p>
+        <div class="controles">
+          <input type="text" id="letra1" placeholder="Agregar una letra" value="">
+          <button id="agregar1" class="secundario">Agregar</button>
+          <button id="invertir1">Invertir con reverse()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Invierte el orden de un array de números.</p>
+        <div class="controles">
+          <input type="number" id="numero2" placeholder="Agregar un número" value="">
+          <button id="agregar2" class="secundario">Agregar</button>
+          <button id="invertir2">Invertir con reverse()</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Dado un string, conviertelo en array y revierte el texto.</p>
+        <div class="controles">
+          <input type="text" id="texto3" placeholder="Escribí un texto" value="Hola mundo">
+          <button id="invertir3">Invertir texto</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array original</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="etiqueta">Resultado</p>
+        <div class="arreglo" id="sal3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>

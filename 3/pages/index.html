@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>unshift() - Métodos de arrays</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header class="barra-superior">
+    <div>
+      <h1>unshift()</h1>
+      <p>Agrega uno o más elementos al principio de un array</p>
+    </div>
+    <button id="btnTema" class="tema">Modo oscuro</button>
+  </header>
+
+  <main class="grilla">
+      <article class="tarjeta">
+        <h2>Ejercicio 1</h2>
+        <p class="consigna">Agrega tres colores al principio de un array vacío.</p>
+        <div class="controles">
+          <select id="color1"><option>Rojo</option><option>Azul</option><option>Verde</option><option>Amarillo</option><option>Violeta</option></select>
+          <button id="agregar1">Agregar con unshift()</button>
+          <button id="reiniciar1" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr1"></div>
+        <p class="resultado" id="res1"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 2</h2>
+        <p class="consigna">Dado un array de tareas, agrega una nueva tarea urgente al principio.</p>
+        <div class="controles">
+          <input type="text" id="tarea2" placeholder="Tarea urgente" value="">
+          <button id="agregar2">Agregar al principio</button>
+          <button id="reiniciar2" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr2"></div>
+        <p class="resultado" id="res2"></p>
+      </article>
+      <article class="tarjeta">
+        <h2>Ejercicio 3</h2>
+        <p class="consigna">Inserta el nombre de un usuario al principio de un array de usuarios conectados.</p>
+        <div class="controles">
+          <input type="text" id="usuario3" placeholder="Nombre del usuario" value="">
+          <button id="agregar3">Conectar usuario</button>
+          <button id="reiniciar3" class="secundario">Reiniciar</button>
+        </div>
+        <p class="etiqueta">Array</p>
+        <div class="arreglo" id="arr3"></div>
+        <p class="resultado" id="res3"></p>
+      </article>
+  </main>
+
+  <script src="/modules/script.js"></script>
+</body>
+</html>
